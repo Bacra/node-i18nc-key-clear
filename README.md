@@ -1,4 +1,4 @@
-I18NC-KEY-TRIM
+I18NC-KEY-CLEAR
 ==================
 
 

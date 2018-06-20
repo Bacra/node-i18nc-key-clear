@@ -1,7 +1,6 @@
 'use strict';
 
 var debug = require('debug')('i18nc-key-clear');
-var TRIM_REG = /^(\s*)(.*?)(\s*)$/;
 
 exports = module.exports = function(i18nc)
 {
