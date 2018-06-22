@@ -6,7 +6,7 @@ var keyClear		= require('../');
 var keyClearTest	= keyClear._test;
 keyClear(i18nc);
 
-describe('#keytrim', function()
+describe('#keyClear', function()
 {
 	function txt2code(val)
 	{

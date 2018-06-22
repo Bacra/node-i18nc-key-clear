@@ -9,8 +9,9 @@ I18NC-KEY-CLEAR
 [![NPM License][license-image]][npm-url]
 
 # Install
+
 ```
-npm install i18nc-key-clear
+npm install i18nc i18nc-key-clear --save
 ```
 
 # Useage
@@ -19,8 +20,8 @@ npm install i18nc-key-clear
 var i18nc = require('i18nc');
 require('i18nc-key-clear')(i18nc);
 
-i18nc('var str="中文<!--注释-->词典"', {pluginEnabled: {keyClear: true}});
-console.log(i18nc.code);	// var str=I18N('中文词典');
+var info = i18nc('var str="中文<!--注释-->词典"', {pluginEnabled: {keyClear: true}});
+console.log(info.code);	// var str=I18N('中文词典');
 ```
 
 
