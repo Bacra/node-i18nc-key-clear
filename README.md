@@ -1,5 +1,5 @@
 I18NC-KEY-CLEAR
-==================
+================
 
 
 [![NPM Version][npm-image]][npm-url]
@@ -21,7 +21,7 @@ var i18nc = require('i18nc');
 require('i18nc-key-clear')(i18nc);
 
 var info = i18nc('var str="中文<!--注释-->词典"', {pluginEnabled: {keyClear: true}});
-console.log(info.code);	// var str=I18N('中文词典');
+console.log(info.code);  // var str=I18N('中文词典');
 ```
 
 
